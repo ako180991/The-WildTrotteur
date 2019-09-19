@@ -1,0 +1,280 @@
+body {
+
+    margin: 0;
+    font-family: 'Satisfy', cursive;
+    background-image: url("images/back.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+   
+}
+
+
+
+h1{
+
+    text-align: center;
+    margin: 0;
+    font-size: 130px;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+   
+} 
+
+.entête {
+    background-image: url("https://cdn.aarp.net/content/dam/aarp/research/surveys_statistics/life-leisure/2018/images/1140-travel-photos-collage.imgcache.rev137eb6da3017f818cfdfd855d73f1250.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+
+.presentation {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    align-items: stretch;
+}
+
+p{
+    width: 500px;
+    height: 400px;
+    font-size: 22px;
+
+   
+}
+
+h2{
+
+    margin-bottom: 50px;
+    margin-top: 80px;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.presentation2 {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    flex-direction: row-reverse;
+}
+
+li{
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    margin : 0px 10px 0px 10px;
+    font-size: 20px;
+}
+
+
+
+ul {
+  
+    list-style-type:none;
+    padding:  0;
+    margin: 0;
+    overflow: hidden;
+    
+    
+}
+
+.boutonmenuprincipal {
+    background-color:white;
+   color: white;
+   border: none;
+    cursor: pointer;
+   font-size: 10px;
+   }
+.dropdown {
+       position: relative;
+       display: flex;
+       font-size: 25px
+       }
+.dropdown-child {
+       display: none;
+       background-color:darkseagreen;
+       min-width: 10px;
+       }
+.dropdown-child a {
+       color: white;
+       padding: 15px;
+       text-decoration: none;
+       display: block;
+   }
+.dropdown:hover .dropdown-child {
+   display: block;
+   }
+nav {
+   position: absolute;
+}
+
+header {
+
+    position: absolute;
+    margin: 0;
+}
+
+.styled {
+    border: 0;
+    line-height: 4;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px rgb(28, 92, 42);
+    border-radius: 10px;
+    background-color:darkseagreen;
+  
+    
+    
+}
+
+.styled:hover {
+    background-color: mediumseagreen;
+}
+
+.button{
+
+    margin-top: 7Opx;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    
+ 
+
+}
+
+
+article{
+    display: flex;
+    width: 180px;
+    height: 120px;
+    align-items: center;
+    border-radius: 40px;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    background-color:  rgb(114, 165, 139);
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.article :hover{
+
+    background-color: mediumseagreen;
+    opacity: 0.6;
+   
+}
+
+.article{
+    display: flex;
+    justify-content: space-around;
+    
+
+    
+}
+
+article, a{
+    text-decoration: none;
+    color: black;
+}
+
+#scroll_to_top { 
+    position: fixed; 
+    width: 40px; 
+    height: 40px; 
+    bottom: 50px; 
+    right: 30px; 
+  } 
+  #scroll_to_top img { 
+    width: 60px; 
+  }
+
+  .bali {
+
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 30px;
+    
+
+  }
+
+  .bali, img {
+
+    align-items: center;
+  }
+
+  .perou{
+
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 30px;
+    
+
+  }
+
+  .perou, img {
+
+    align-items: center;
+  }
+
+  .chili{
+
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 30px;
+    
+
+  }
+
+  .chili, img {
+
+    align-items: center;
+  }
+
+  .cambodge{
+
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 30px;
+    
+
+  }
+
+  .cambodge, img {
+
+    align-items: center;
+  }
+
+  .chine{
+
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 30px;
+    
+
+  }
+
+  .chine, img {
+
+    align-items: center;
+  }
