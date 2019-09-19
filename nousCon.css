@@ -1,0 +1,104 @@
+html{
+    font-family: "Satisfy", serif;
+    background: url(background_nousCon.jpeg) no-repeat center center fixed; 
+    background-size: cover;
+    margin: 0;
+    font-size: 30px;
+}
+
+
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+.empty{
+    height: 15vh;
+}
+
+nav{
+    position: absolute
+}
+
+.boutonmenuprincipal {
+    background-color:white;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+}
+
+.dropdown-child {
+    display: none;
+    background-color:darkseagreen;
+    min-width: 50px;
+}
+
+.dropdown-child a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+form{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+input, textarea{
+    width: 50%;
+    margin-bottom: 10vh;
+    margin-left: 25%;
+}
+
+input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+textarea{
+    margin-bottom: 5vh;
+    min-height: 100px;
+    max-height: 250px;
+}
+
+.sizeButton{
+    width: 10%;
+}
+
+@media (max-width: 650px) {
+
+    .empty{
+        height: 8vh;   
+    }
+
+    form{
+        height: 300px;
+    }
+
+    .sizeButton{
+        width: 75px;
+    }
+}
