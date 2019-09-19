@@ -16,6 +16,7 @@ h3 {
 
 p {
     font-size: 20px;
+    text-align: center;
     background-color: rgba(255, 255, 255, 0.5);
   }
   section{
@@ -31,12 +32,15 @@ p {
     width:950px;
     height:300px;
   }
+  
   img:hover {
     box-shadow: 0 0 20px 10px whitesmoke;
   }
+
   nav {
     position: absolute;
   }
+
   .boutonmenuprincipal {
     background-color:white;
     color: white;
@@ -44,21 +48,25 @@ p {
     cursor: pointer;
     font-size: 30px;
   }
+
   .dropdown {
     position: relative;
     display: flex;
   }
+
   .dropdown-child {
     display: none;
     background-color:darkseagreen;
     min-width: 50px;
   }
+
   .dropdown-child a {
     color: white;
     padding: 15px;
     text-decoration: none;
     display: block;
   }
+
   .dropdown:hover .dropdown-child {
     display: block;
   }
