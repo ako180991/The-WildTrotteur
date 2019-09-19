@@ -1,13 +1,10 @@
 body {
-
     margin: 0;
     font-family: 'Satisfy', cursive;
     background-image: url("images/back.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
-
 }
 
 .boutonmenuprincipal {
@@ -16,70 +13,59 @@ body {
    border: none;
     cursor: pointer;
    font-size: 10px;
-   }
+}
+
 .dropdown {
-       position: relative;
-       display: flex;
-       font-size: 25px;
-       }
+    position: relative;
+    display: flex;
+    font-size: 25px;
+}
+
 .dropdown-child {
-       display: none;
-       background-color:darkseagreen;
-       min-width: 10px;
-       }
+    display: none;
+    background-color:darkseagreen;
+    min-width: 10px;
+}
+
 .dropdown-child a {
-       color: white;
-       padding: 15px;
-       text-decoration: none;
-       display: block;
-   }
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
 .dropdown:hover .dropdown-child {
    display: block;
-   }
+}
 nav {
    position: absolute;
 }
 
-
 header {
-
     position: absolute;
     margin: 0;
-   
 }
 
 h1{
-
     text-align: center;
     margin: 0;
     font-size: 50px;
     height: 500px;
     justify-content: center;
     display: flex;
-    align-items: center;
-  
-   
-   
+    align-items: center;   
 }
 
-
 .entête{
-
     background-image: url("images/tete.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 80px;
-    
 }
 
 p{
-   
     font-size: 26px;
-    
-    
 }
-
-
 
 li{
     display: inline-flex;
@@ -89,43 +75,32 @@ li{
     font-size: 20px;
 }
 
-
-
 ul {
-
     list-style-type:none;
     padding:  0;
     margin: 0;
     overflow: hidden;
-
-
 }
 
 h1{
-
     text-align: center;
     font-size: 130px;
 }
 
 h3, h2{
-
     text-align: center;
     margin-bottom: 80px;
     margin-top: 80px;
     font-size: 50px;
-
 }
 
 .first {
-
     margin-top: 120px;
 }
 
 .kayak {
-
     margin-left: 20px;
     display: flex;
-
 }
 
 .kayak, p {
@@ -133,12 +108,9 @@ h3, h2{
     align-items: center;
     margin-right: 20px;
     padding: 0;
-
-
 }
 
 .skyscanner {
-
     margin-left: 20px;
     display: flex;
     margin-top: 30px;
@@ -150,21 +122,16 @@ h3, h2{
     align-items: center;
     margin-right: 20px;
     padding: 0;
-
-
 }
 
 .airbnb{
-
     margin-left: 20px;
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
-
 }
 
 .airbnb, p {
-
     margin-left: 20px;
     align-items: center;
     margin-right: 20px;
@@ -172,16 +139,13 @@ h3, h2{
 }
 
 .booking{
-
     margin-left: 20px;
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
-
 }
 
 .booking, p {
-
     margin-left: 20px;
     align-items: center;
     margin-right: 20px;
@@ -189,16 +153,13 @@ h3, h2{
 }
 
 .tripadvisor{
-
     margin-left: 20px;
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
-
 }
 
 .tripadvisor, p {
-
     margin-left: 20px;
     align-items: center;
     margin-right: 20px;
@@ -206,17 +167,14 @@ h3, h2{
 }
 
 .googletrad{
-
     margin-left: 20px;
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
     align-content: stretch;
-
 }
 
 .googletrad, p {
-
     margin-left: 20px;
     align-items: center;
     margin-right: 20px;
@@ -225,23 +183,19 @@ h3, h2{
 }
 
 .googletrad, p, img{
-
     justify-content: space-between;
 }
 
 
 .linguee{
-
     margin-left: 20px;
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
     align-content: stretch;
-
 }
 
 .linguee, p {
-
     margin-left: 20px;
     align-items: center;
     margin-right: 20px;
@@ -250,23 +204,19 @@ h3, h2{
 }
 
 .linguee, p, img{
-
     justify-content: space-between;
 }
 
 
 .ministere{
-
     margin-left: 20px;
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
     align-content: stretch;
-
 }
 
 .ministere, p {
-
     margin-left: 20px;
     align-items: center;
     margin-right: 20px;
@@ -275,24 +225,20 @@ h3, h2{
 }
 
 .vpn{
-
     margin-left: 20px;
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
     align-content: stretch;
-
 }
 
 .vpn, p {
-
     margin-left: 20px;
     align-items: center;
     margin-right: 20px;
     padding: 0;
     justify-content: flex-start;
 }
-
 
 .styled {
     border: 0;
@@ -306,8 +252,6 @@ h3, h2{
     background-color: rgb(78, 116, 128);
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
-
-
 }
 
 .styled:hover {
@@ -315,7 +259,6 @@ h3, h2{
 }
 
 .button{
-
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
@@ -338,18 +281,13 @@ article{
 }
 
 .article :hover{
-
     background-color: mediumseagreen;
     opacity: 0.8;
-   
 }
 
 .article{
     display: flex;
     justify-content: space-around;
-    
-
-    
 }
 
 article, a{
@@ -363,48 +301,39 @@ article, a{
     height: 40px; 
     bottom: 50px; 
     right: 30px; 
-    
-  } 
-  #scroll_to_top img { 
+} 
+
+#scroll_to_top img { 
     width: 60px; 
-  }
+}
 
-  .livre1{
-
+.livre1{
     display: flex;
     justify-content: space-around;
     margin-bottom: 200px;
+}
 
-  }
-
-  .paralivre {
-
+.paralivre {
     width: 500px;
     height: 350px;
-  }
+}
 
-  .paralivre p {
-
+.paralivre p {
     margin-bottom: 60px;
-    
-  }
+}
 
-  .comp {
-
+.comp {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
     margin-left: 40px;
-    margin-left: 40px;
-    
-  }
+    margin-left: 40px;   
+}
 
-  .comp p {
-
+.comp p {
     font-size: 20px;
-  }
+}
 
-  .comp article {
-
+.comp article {
     font-size: 20px;
-  }
+}

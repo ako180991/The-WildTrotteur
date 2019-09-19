@@ -60,27 +60,40 @@ p {
     min-width: 50px;
   }
 
-  .dropdown-child a {
-    color: white;
-    padding: 15px;
-    text-decoration: none;
-    display: block;
-  }
+.dropdown-child a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+}
 
-  .dropdown:hover .dropdown-child {
-    display: block;
-  }
-  @media screen and (max-width:651px) {
+.dropdown:hover .dropdown-child {
+  display: block;
+}
 
-.images_petit{
+#scroll_to_top { 
+  position: fixed; 
+  width: 40px;
+  height: 40px; 
+  bottom: 50px; 
+  right: 30px; 
+} 
+
+#scroll_to_top img { 
+  width: 60px; 
+}
+
+@media screen and (max-width:651px) {
+
+  .images_petit{
     width:100%;
     max-width: 400px;
     height: 120px;
-    }
+  }
 
-    nav div button img {
-        width: 30px;
-        height: 30px;
+  nav div button img {
+    width: 30px;
+    height: 30px;
   }
 }
   @media screen and (max-width:1024px) and (min-width:651px) {
