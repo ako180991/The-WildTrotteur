@@ -9,10 +9,10 @@ body {
 
 .boutonmenuprincipal {
     background-color:white;
-   color: white;
-   border: none;
+    color: white;
+    border: none;
     cursor: pointer;
-   font-size: 10px;
+    font-size: 10px;
 }
 
 .dropdown {
@@ -37,6 +37,7 @@ body {
 .dropdown:hover .dropdown-child {
    display: block;
 }
+
 nav {
    position: absolute;
 }

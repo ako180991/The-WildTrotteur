@@ -55,7 +55,6 @@ body {
     margin-right: auto
 }
 
-
 .boutonmenuprincipal {
     background-color:white;
     color: white;
@@ -92,11 +91,11 @@ body {
     height: 40px; 
     bottom: 50px; 
     right: 30px; 
-  } 
+} 
   
-  #scroll_to_top img { 
+#scroll_to_top img { 
     width: 60px; 
-  }
+}
 
 section:nth-of-type(2n){ 
     background:rgba(143, 188, 143, 0.6);
