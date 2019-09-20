@@ -2,8 +2,7 @@ body {
   margin: 0;
   font-family: 'Satisfy', cursive;
   background-image: url("images/back.jpg");
-  background-size: 100%;
-  background-repeat: repeat;
+  background-size: cover;
   color: rgb(97, 47, 97);
 }
 
@@ -34,7 +33,11 @@ h1{
 p{
   width: 500px;
   height: 400px;
-  font-size: 22px;
+  font-size: 25px;
+}
+
+hr{
+  margin-top: 20vh;
 }
 
 h2{
@@ -95,6 +98,29 @@ ul {
 
 .dropdown:hover .dropdown-child {
   display: block;
+}
+
+footer{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin-top: 10vh;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;;
+  padding: 6px 40px;
+  width: 15%;
+  text-align: center;
+  font-size: 25px;
+}
+
+footer a:hover{
+  box-shadow: 0 0 20px 10px whitesmoke;
 }
 
 nav {
