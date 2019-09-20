@@ -4,6 +4,8 @@ html{
     font-size: 25px;
 }
 
+body{margin: 0;}
+
 h1{
     text-align: center;
     margin: 0;
@@ -74,7 +76,7 @@ img{
 }
 
 footer{
-    background-color: darkseagreen;
+    background-color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -85,14 +87,14 @@ footer{
 
 footer a{
     text-decoration: none;
-    color: rgb(236, 201, 232);
-    padding: 8px 40px;
-    width: 15%
+    color: white;;
+    padding: 6px 40px;
+    width: 15%;
+    text-align: center;
 }
 
 footer a:hover{
-    background-color: darkseagreen;
-    color: rgb(97, 47, 97);
+    box-shadow: 0 0 20px 10px whitesmoke;
 }
 
 .empty{

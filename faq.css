@@ -98,6 +98,28 @@ body {
     width: 60px; 
 }
 
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;;
+    padding: 6px 40px;
+    width: 15%;
+    text-align: center;
+}
+
+footer a:hover{
+    box-shadow: 0 0 20px 10px whitesmoke;
+}
+
 section:nth-of-type(2n){ 
     background:rgba(143, 188, 143, 0.6);
 }
