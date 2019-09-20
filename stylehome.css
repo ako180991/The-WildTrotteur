@@ -11,7 +11,7 @@ h1{
 }
 
 header{
-    background-image: url("homepage_mainscreen.jpg");
+    background-image: url("./images/homepage_mainscreen.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;

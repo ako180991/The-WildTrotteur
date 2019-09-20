@@ -1,11 +1,10 @@
 html{
     font-family: "Satisfy", serif;
-    background: url(background_nousCon.jpeg) no-repeat center center fixed; 
+    background: url(images/background_nousCon.jpeg) no-repeat center center fixed; 
     background-size: cover;
     margin: 0;
     font-size: 30px;
 }
-
 
 h1{
     text-align: center;
