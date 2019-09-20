@@ -7,6 +7,10 @@ html{
     color: rgb(97, 47, 97);
 }
 
+body{
+    margin: 0;
+}
+
 h1{
     text-align: center;
     margin: 0;
