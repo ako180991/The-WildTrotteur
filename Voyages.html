@@ -30,13 +30,15 @@
             </nav>
         </header>
 
+        
+
         <div id="scroll_to_top"> 
             <a href="#top"><img src="images/scrolltop.png" alt="Retourner en haut" /></a> 
         </div>
 
         <div class="entête">
-        
-            <h1>Nos Voyages</h1>
+
+            <h1 id="deplaceh1">Nos Voyages</h1>
 
             <section class="article">
                 <a href="#bali"><article>L'île de Bali</article></a>
@@ -46,8 +48,8 @@
             </section>
         </div>
 
-        <div>
-            <img src="images/map.jpg" width = "100%;">
+        <div class="javamap">
+            <img id="carte" src="images/map.jpg" width = "100%;">
         </div>
 
         <section class="voyage1">
@@ -57,17 +59,26 @@
             </div>
 
             <div class="presentation">
-                <img src="images/balirizieres.jpg">
-                <p> Bali est le paradis des backpackers. C’est la destination la plus populaire en Indonésie, un point central pour les voyageurs, les amateurs de yoga, les jeunes mariés en lune de miel et les “digital nomads”.
+                <img id="img1" onmouseover = "setNewImage()"
+                onmouseout="setOldImage()" src="images/balirizieres2.jpg">
 
-                    L’île répond aux besoins des voyageurs à la roots, mais propose aussi des hébergements pour les voyageurs qui recherchent plus de confort.
-                        
-                    Même si Bali est très visitée, elle reste magnifique, économique et il y a beaucoup de choses à y voir. La campagne est superbe, les plages (en dehors de Kuta) sont parfaites et on peut y faire de très belles randonnées.
-                        
-                    La clé pour voyager à Bali, c’est de sortir de Kuta et d’Ubud. En dehors de ces villes, on découvre une île calme sans être embêté par les racoleurs.</p>
+                <div id = "content"><p> Bali est le paradis des backpackers. C’est la destination la plus populaire en Indonésie, un point central pour les voyageurs, 
+                    les amateurs de yoga, les jeunes mariés en lune de miel et les “digital nomads”.
+                    L’île répond aux besoins des voyageurs à la roots, mais propose aussi des hébergements pour les voyageurs qui recherchent
+                    plus de confort.
+                    Même si Bali est très visitée, elle reste magnifique, économique et il y a beaucoup de choses à y voir. La campagne est superbe, 
+                    les plages (en dehors de Kuta) sont parfaites et on peut y faire de très belles randonnées.
+                    La clé pour voyager à Bali, c’est de sortir de Kuta et d’Ubud. En dehors de ces villes, on découvre
+                     une île calme sans être embêté par les racoleurs.
+                     
+                     Bali est le paradis des backpackers.</p>
+                    
+
+                     <a id = "show-more">Show More</a></div>
+
         </section>
 
-        <hr width="75%" color="grey"> 
+         
 
         <section class="voyage2">
 
@@ -96,9 +107,16 @@
             
             <div class="presentation">
                 <img src="images/ile-de-paques.jpg" alt="photo ile paque">                    
-                <p>Isolée au milieu de l’océan Pacifique, l’île de Pâques est l’un des lieux les plus reculés du monde. Le vol pour s’y rendre depuis Santiago du Chili dure plus de cinq heures.                  
-                    Rapa Nui, comme l’appelle ses habitants, a été rendue célèbre par le mystère qui entoure ses 1 000 statues de pierre géantes, les Moai, qui mesurent jusqu’à 21 mètres de haut. Les archéologues du monde entier ont afflué sur l’île depuis 1940 pour tenter de résoudre ce mystère, mais certaines pièces du puzzle restent encore inconnues aujourd’hui.                        
-                    Beaucoup de voyageurs sont attirés par le mystère des Moai, mais se rendent rapidement compte que l’île de Pâques a bien plus à offrir que son histoire. Le mélange unique des cultures polynésienne et chilienne et l’isolation de l’île en ont fait un endroit unique au monde.</p>
+                <p>Isolée au milieu de l’océan Pacifique, l’île de Pâques est l’un des lieux les plus reculés du monde.
+                     Le vol pour s’y rendre depuis Santiago du Chili dure plus de cinq heures.                  
+                    Rapa Nui, comme l’appelle ses habitants, a été rendue célèbre par le mystère qui entoure ses 1 000 statues de pierre géantes, 
+                    les Moai, qui mesurent jusqu’à 21 mètres de haut. Les archéologues du monde entier ont afflué sur l’île depuis 1940 pour tenter
+                     de résoudre ce mystère, mais certaines pièces du puzzle restent encore inconnues aujourd’hui.                        
+                    Beaucoup de voyageurs sont attirés par le mystère des Moai, mais se rendent rapidement compte
+                     que l’île de Pâques a bien plus à offrir que son histoire. Le mélange unique des cultures polynésienne et chilienne
+                      et l’isolation de l’île en ont fait un endroit unique au monde.</p>
+
+                      
             </div>
     
         </section>
@@ -151,5 +169,8 @@
             <a href="./nous_contacter.html" title="">Nous contacter</a>
         </footer>
         
+
+        <script src = "script.js"></script>
+
     </body>
 </html>
