@@ -40,7 +40,7 @@ section{
   width:950px;
   height:300px;
 }
-  
+ 
 img:hover {
   box-shadow: 0 0 20px 10px whitesmoke;
 }
@@ -120,12 +120,15 @@ footer a:hover{
     max-width: 400px;
     height: 120px;
   }
-
+ 
   nav div button img {
-    width: 30px;
-    height: 30px;
+      width: 30px;
+      height: 30px;
   }
 }
+
+
+=======
 
 @media screen and (max-width:1024px) and (min-width:651px) {
     
