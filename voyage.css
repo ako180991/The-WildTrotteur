@@ -26,14 +26,16 @@ h1{
 .presentation {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 80px;
+  margin-bottom:120px;
   align-items: stretch;
 }
 
+
 p{
   width: 500px;
-  height: 400px;
+  height : 500px;
   font-size: 25px;
+  
 }
 
 hr{
@@ -42,7 +44,7 @@ hr{
 
 h2{
   margin-bottom: 50px;
-  margin-top: 80px;
+  margin-top: 120px;
   font-size: 40px;
   margin-left: 30px;
 }
@@ -53,6 +55,8 @@ h2{
   margin-bottom: 80px;
   flex-direction: row-reverse;
 }
+
+
 
 li{
   display: inline-flex;
@@ -205,6 +209,7 @@ article, a{
 
 .perou, img {
   align-items: center;
+  margin-top: 40px;
 }
 
 .chili{
@@ -242,3 +247,53 @@ article, a{
 .chine, img {
   align-items: center;
 }
+#content {
+  width: 800px;
+  max-height: 300px;
+  overflow: hidden;
+  padding : 20px;
+  margin-left: 20px;
+  -webkit-transition: max-height 0.7s;
+  -moz-transition: max-height 0.7s;
+  transition: max-height 0.7s;
+  -ms-transition: max-height 0.7s;
+  -o-transition: max-height 0.7s;
+}
+
+#content.open {
+  max-height: 1300px;
+  -webkit-transition:max-height 0.7s;
+  -moz-transition:max-height 0.7s;
+  transition: max-height 0.7s;
+  -ms-transition:max-height 0.7s;
+  -o-transition:max-height 0.7s;
+}
+
+#show-more{
+  
+  background : #04b339;
+  color : #fff;
+  font-family : calibri;
+  display: block;
+  width : 140px;
+  font-size : 24px;
+  text-transform : uppercase;
+  padding : 10px;
+  text-align : center;
+  margin : 20px auto;
+  cursor : pointer;
+  position: absolute;
+}
+
+
+.javamap {
+
+  max-width: 100%;
+  max-height: 800px;
+  overflow: auto;
+}
+
+.javamap img {
+  margin-top: 10px;
+}
+

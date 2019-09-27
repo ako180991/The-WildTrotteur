@@ -73,6 +73,7 @@ figure{
 
 figcaption{
     color: rgb(97, 47, 97);
+    display: none; 
 }
 
 img{
