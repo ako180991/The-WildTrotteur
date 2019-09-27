@@ -1,90 +1,90 @@
 body {
-    font-family: 'Satisfy', cursive;
-    background: url(images/stacey-gabrielle-koenitz-rozells-kSY5T6js2KE-unsplash.jpg) center;
-    margin: 0;
-    font-size:30px;
+  font-family: 'Satisfy', cursive;
+  background: url(images/stacey-gabrielle-koenitz-rozells-kSY5T6js2KE-unsplash.jpg) center;
+  margin: 0;
+  font-size:30px;
 }
 
 h1 {
-    text-align: center;
-    }
+  text-align: center;
+  }
 
 h3 {
-    margin-top: 10%;
-    text-align: center;
+  margin-top: 10%;
+  text-align: center;
 }
 
 p {
-    font-size: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-  section{
-    width: 80%;
-    margin: 2px auto;
-  }
-
-  .images_petit {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 4px;
-    width:950px;
-    height:300px;
-  }
-  img:hover {
-    box-shadow: 0 0 20px 10px whitesmoke;
-  }
-  nav {
-    position: absolute;
-  }
-  .boutonmenuprincipal {
-    background-color:white;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 30px;
-  }
-  .dropdown {
-    position: relative;
-    display: flex;
-  }
-  .dropdown-child {
-    display: none;
-    background-color:darkseagreen;
-    min-width: 50px;
-  }
-  .dropdown-child a {
-    color: white;
-    padding: 15px;
-    text-decoration: none;
-    display: block;
-  }
-  .dropdown:hover .dropdown-child {
-    display: block;
-  }
-  @media screen and (max-width:651px) {
-
-.images_petit{
-    width:100%;
-    max-width: 400px;
-    height: 120px;
-    }
-
-    nav div button img {
-        width: 30px;
-        height: 30px;
-  }
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
-  @media screen and (max-width:1024px) and (min-width:651px) {
-    
+section{
+  width: 80%;
+  margin: 2px auto;
+}
+
+.images_petit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  width:950px;
+  height:300px;
+}
+img:hover {
+  box-shadow: 0 0 20px 10px black;
+}
+nav {
+  position: absolute;
+}
+.boutonmenuprincipal {
+  background-color:white;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+.dropdown {
+  position: relative;
+  display: flex;
+}
+.dropdown-child {
+  display: none;
+  background-color:darkseagreen;
+  min-width: 50px;
+}
+.dropdown-child a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+@media screen and (max-width:651px) {
+
 .images_petit{
-    width:100%;
-    max-width: 600px;
-    height: 220px;
-    }
+  width:100%;
+  max-width: 400px;
+  height: 120px;
+  }
+
+  nav div button img {
+      width: 30px;
+      height: 30px;
+}
+}
+@media screen and (max-width:1024px) and (min-width:651px) {
+  
+.images_petit{
+  width:100%;
+  max-width: 600px;
+  height: 220px;
+  }
 nav div button img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 }
