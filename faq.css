@@ -1,19 +1,20 @@
 body {
     font-family: 'Satisfy', cursive;
     background: url(images/thomas-henke-vOoQ7yveS0U-unsplash.jpg) center;
+    color: rgb(97, 47, 97);
 }
 
 h1 {
     text-align: center;
-    font-size: 50px;
     color:rgb(97, 47, 97);
     margin-bottom:15%;
+    margin-top: 0;
+    font-size: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/*
-h2:hover {
-    background-color:white;
-}*/
-
 
 h2 {
     text-align: center;
@@ -44,15 +45,10 @@ article {
     margin-bottom: 10%
 }
 
-/*article:hover {
-    background-color:white;
-    border-block-start:ridge;
-    border-block-end-style:ridge;
-}*/ 
-
 nav {
     position: absolute;
 }
+
 body {
     margin: 0;
 }
@@ -63,34 +59,71 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto
-     }
-
+}
 
 .boutonmenuprincipal {
-     background-color:white;
+    background-color:white;
     color: white;
     border: none;
-     cursor: pointer;
+    cursor: pointer;
     font-size: 10px;
-    }
+}
+
 .dropdown {
-        position: relative;
-        display: flex;
-        }
+    position: relative;
+    display: flex;
+}
+
 .dropdown-child {
-        display: none;
-        background-color:darkseagreen;
-        min-width: 10px;
-        }
+    display: none;
+    background-color:darkseagreen;
+    min-width: 10px;
+}
+        
 .dropdown-child a {
-        color: white;
-        padding: 15px;
-        text-decoration: none;
-        display: block;
-    }
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
 .dropdown:hover .dropdown-child {
     display: block;
-    }
+}
+
+#scroll_to_top { 
+    position: fixed; 
+    width: 40px;
+    height: 40px; 
+    bottom: 50px; 
+    right: 30px; 
+} 
+  
+#scroll_to_top img { 
+    width: 60px; 
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;;
+    padding: 6px 40px;
+    width: 15%;
+    text-align: center;
+}
+
+footer a:hover{
+    box-shadow: 0 0 20px 10px whitesmoke;
+}
 
 section:nth-of-type(2n){ 
     background:rgba(143, 188, 143, 0.6);
@@ -105,8 +138,8 @@ section:nth-of-type(2n){
         margin-left:2%;
     }
 
-        nav div button img {
-            width: 30px;
-            height: 30px;
-      }
-    }
+    nav div button img {
+        width: 30px;
+        height: 30px;
+    }   
+}

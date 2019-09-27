@@ -1,5 +1,6 @@
 body {
   font-family: 'Satisfy', cursive;
+  color: rgb(97, 47, 97);
   background: url(images/stacey-gabrielle-koenitz-rozells-kSY5T6js2KE-unsplash.jpg) center;
   margin: 0;
   font-size:30px;
@@ -7,7 +8,13 @@ body {
 
 h1 {
   text-align: center;
-  }
+  margin-top: 0;
+  font-size: 100px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 h3 {
   margin-top: 10%;
@@ -15,9 +22,11 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
   background-color: rgba(255, 255, 255, 0.5);
 }
+
 section{
   width: 80%;
   margin: 2px auto;
@@ -31,12 +40,15 @@ section{
   width:950px;
   height:300px;
 }
+ 
 img:hover {
-  box-shadow: 0 0 20px 10px black;
+  box-shadow: 0 0 20px 10px whitesmoke;
 }
+
 nav {
   position: absolute;
 }
+
 .boutonmenuprincipal {
   background-color:white;
   color: white;
@@ -44,47 +56,90 @@ nav {
   cursor: pointer;
   font-size: 30px;
 }
+
 .dropdown {
   position: relative;
   display: flex;
 }
+
 .dropdown-child {
   display: none;
   background-color:darkseagreen;
   min-width: 50px;
 }
+
 .dropdown-child a {
   color: white;
   padding: 15px;
   text-decoration: none;
   display: block;
 }
+
 .dropdown:hover .dropdown-child {
   display: block;
 }
+
+#scroll_to_top { 
+  position: fixed; 
+  width: 40px;
+  height: 40px; 
+  bottom: 50px; 
+  right: 30px; 
+} 
+
+#scroll_to_top img { 
+  width: 60px; 
+}
+
+footer{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin-top: 10vh;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 40px;
+  width: 15%;
+  text-align: center;
+}
+
+footer a:hover{
+  box-shadow: 0 0 20px 10px whitesmoke;
+}
+
 @media screen and (max-width:651px) {
 
-.images_petit{
-  width:100%;
-  max-width: 400px;
-  height: 120px;
+  .images_petit{
+    width:100%;
+    max-width: 400px;
+    height: 120px;
   }
-
+ 
   nav div button img {
       width: 30px;
       height: 30px;
-}
-}
-@media screen and (max-width:1024px) and (min-width:651px) {
-  
-.images_petit{
-  width:100%;
-  max-width: 600px;
-  height: 220px;
   }
-nav div button img {
-  width: 50px;
-  height: 50px;
 }
 
+
+=======
+
+@media screen and (max-width:1024px) and (min-width:651px) {
+    
+  .images_petit{
+    width:100%;
+    max-width: 600px;
+    height: 220px;
+  }
+  
+  nav div button img {
+    width: 50px;
+    height: 50px;
+  }
 }

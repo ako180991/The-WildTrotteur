@@ -3,213 +3,174 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Nos voyages</title>
-        <link rel="stylesheet" href="voyage.css">
-        
-        <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+        <meta name="author" content="Ouahih Aqodad, Solène Tellier, Florian Plot">
+        <meta name="description" content="Premier projet pour WCS d'un site static">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        
+        <title>Nos voyages</title>
+
+        <link rel="stylesheet" href="voyage.css">
+        <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
         
     </head>
 
     <body>
         <header>        
-                <nav>
-                        <div class="dropdown">
-                                <button class="boutonmenuprincipal"><img src="images/maison.jpg" width="60px;"></button>
-                                <div class="dropdown-child">
-                                <a href="home.html">Home</a>
-                                <a href="Voyages.html">Nos voyages</a>
-                                <a href="dreamdestination.html">Nos Dream destinations</a>
-                                <a href="Tips.html">Nos Tips</a>
-                                <a href="FAQ.html">Faq</a>
-                                <a href="Contactus">Nous Contacter</a>
-                                </div>
-                            </div>
-                </nav>
-        
+            <nav>
+                <div class="dropdown">
+                    <button class="boutonmenuprincipal"><img src="images/logiciel-de-dessin-maison-beau-logiciel-dessin-plan-maison-10-maison-dessin-simple-of-logiciel-de-dessin-maison (3).jpg"></button>
+                    <div class="dropdown-child">
+                        <a href="index.html">Home</a>
+                        <a href="dream.html">Nos Dream destinations</a>
+                        <a href="Tips.html">Nos Tips</a>
+                        <a href="FAQ.html">Faq</a>
+                        <a href="nous_contacter.html">Nous Contacter</a>
+                    </div>
+                </div>
+            </nav>
         </header>
 
+        
 
         <div id="scroll_to_top"> 
-                <a href="#top"><img src="images/scrolltop.png" alt="Retourner en haut" /></a> 
-            </div>
+            <a href="#top"><img src="images/scrolltop.png" alt="Retourner en haut" /></a> 
+        </div>
 
         <div class="entête">
-        
-        <h1>Nos Voyages</h1>
 
+            <h1 id="deplaceh1">Nos Voyages</h1>
 
+            <section class="article">
+                <a href="#bali"><article>L'île de Bali</article></a>
+                <a href="#macchu"> <article>Le Macchu Picchu</article></a>
+                <a href="#paque"><article>L'île de Paques</article></a>
+                <a href="#angkor"><article>Les Temples d'Angkor</article></a>             
+            </section>
+        </div>
 
-                <section class="article">
-
-                        <a href="#bali"><article>L'île de Bali</article></a>
-                        <a href="#macchu"> <article>Le Macchu Picchu</article></a>
-                        <a href="#paque"><article>L'île de Paques</article></a>
-                        <a href="#angkor"><article>Les Temples d'Angkor</article></a>
-                        
-            
-
-        
-                
-                 </section>
-
-
-            </div>
-
-            <div>
-
-                    <img src="images/map.jpg" width = "100%;">
-            
-                </div>
-
-
+        <div class="javamap">
+            <img id="carte" src="images/map.jpg" width = "100%;">
+        </div>
 
         <section class="voyage1">
-
             <div class="bali">
-                        <h2 id="bali">L'île de Bali - Indonesie </h2>
-                        <img src="images/bali.jpg" height="50px;">
-                    </div>
-
-
-                
+                <h2 id="bali">L'île de Bali - Indonesie </h2>
+                <img src="images/bali.jpg" height="50px;">
             </div>
 
             <div class="presentation">
-                <img src="images/balirizieres.jpg">
+                <img id="img1" onmouseover = "setNewImage()"
+                onmouseout="setOldImage()" src="images/balirizieres2.jpg">
 
-                <p> Bali est le paradis des backpackers. C’est la destination la plus populaire en Indonésie, un point central pour les voyageurs, les amateurs de yoga, les jeunes mariés en lune de miel et les “digital nomads”.
+                <div id = "content"><p> Bali est le paradis des backpackers. C’est la destination la plus populaire en Indonésie, un point central pour les voyageurs, 
+                    les amateurs de yoga, les jeunes mariés en lune de miel et les “digital nomads”.
+                    L’île répond aux besoins des voyageurs à la roots, mais propose aussi des hébergements pour les voyageurs qui recherchent
+                    plus de confort.
+                    Même si Bali est très visitée, elle reste magnifique, économique et il y a beaucoup de choses à y voir. La campagne est superbe, 
+                    les plages (en dehors de Kuta) sont parfaites et on peut y faire de très belles randonnées.
+                    La clé pour voyager à Bali, c’est de sortir de Kuta et d’Ubud. En dehors de ces villes, on découvre
+                     une île calme sans être embêté par les racoleurs.
+                     
+                     Bali est le paradis des backpackers.</p>
+                    
 
-                        L’île répond aux besoins des voyageurs à la roots, mais propose aussi des hébergements pour les voyageurs qui recherchent plus de confort.
-                        
-                        Même si Bali est très visitée, elle reste magnifique, économique et il y a beaucoup de choses à y voir. La campagne est superbe, les plages (en dehors de Kuta) sont parfaites et on peut y faire de très belles randonnées.
-                        
-                        La clé pour voyager à Bali, c’est de sortir de Kuta et d’Ubud. En dehors de ces villes, on découvre une île calme sans être embêté par les racoleurs.</p>
+                     <a id = "show-more">Show More</a></div>
 
+        </section>
+
+         
+
+        <section class="voyage2">
+
+            <div class="perou">
+                <h2 id="macchu">Le Machu Picchu - Pérou </h2> 
+                <img src="images/flagperou.jpg" alt="drapeau perou" height="50px">                
+            </div>
+    
+            <div class="presentation2">
+                <img src="images/machu-picchu.jpg" alt="machu picchu">
+                <p> La visite du Machu Picchu est une expérience inoubliable. L’émerveillement qu’on ressent devant ce site est en partie due au mystère qui l’entoure. Les ruines ont été découvertes en 1911 par Hiram Bingham, une jeune archéologue américain qui a inspiré le personnage d’Indiana Jones.
+
+                    Les historiens peuvent seulement émettre des suppositions quant à l’utilisation initiale du site. La plupart s’accordent sur le fait qu’il a sans doute été construit par l’empereur inca Pachacútec au 15e siècle et a peut-être servi de retraite hivernale pour échapper au froid de Cuzco. Son manque d’importance militaire explique probablement pourquoi il n’a pas été détruit par les conquistadors espagnols et est resté inconnu pendant des siècles. </p>
+            </div>
+    
+        </section>
+
+        <hr width="75%" color="grey"> 
+
+        <section class="voyage3">
+
+            <div class="chili">
+                <h2 id="paque">L'île de Pâques - Chili </h2>
+                <img src="images/flagchili.jpeg" alt="drapeau chili" height="50px">
+            </div>
+            
+            <div class="presentation">
+                <img src="images/ile-de-paques.jpg" alt="photo ile paque">                    
+                <p>Isolée au milieu de l’océan Pacifique, l’île de Pâques est l’un des lieux les plus reculés du monde.
+                     Le vol pour s’y rendre depuis Santiago du Chili dure plus de cinq heures.                  
+                    Rapa Nui, comme l’appelle ses habitants, a été rendue célèbre par le mystère qui entoure ses 1 000 statues de pierre géantes, 
+                    les Moai, qui mesurent jusqu’à 21 mètres de haut. Les archéologues du monde entier ont afflué sur l’île depuis 1940 pour tenter
+                     de résoudre ce mystère, mais certaines pièces du puzzle restent encore inconnues aujourd’hui.                        
+                    Beaucoup de voyageurs sont attirés par le mystère des Moai, mais se rendent rapidement compte
+                     que l’île de Pâques a bien plus à offrir que son histoire. Le mélange unique des cultures polynésienne et chilienne
+                      et l’isolation de l’île en ont fait un endroit unique au monde.</p>
+
+                      
+            </div>
+    
         </section>
 
         <hr width="75%" color="grey"> 
 
 
-        <section class="voyage2">
+        <section class="voyage4">
 
-                <div class="perou">
+            <div class="cambodge">
 
-
-
-                    <h2 id="macchu">Le Machu Picchu - Pérou </h2> 
-                    <img src="images/flagperou.jpg" alt="drapeau perou" height="50px">
+                <h2 id="angkor">Les temples d'Angkor - Cambodge</h2>
+                <img src="images/langfr-225px-Flag_of_Cambodia.svg.png" alt="drapeau cambodge" height="50px">
                     
-                    </div>
+            </div>
+        </section>
 
-                </div>
-    
-                <div class="presentation2">
-                    <img src="images/machu-picchu.jpg" alt="machu picchu">
-            
-                    <p> La visite du Machu Picchu est une expérience inoubliable. L’émerveillement qu’on ressent devant ce site est en partie due au mystère qui l’entoure. Les ruines ont été découvertes en 1911 par Hiram Bingham, une jeune archéologue américain qui a inspiré le personnage d’Indiana Jones.
+        <div class="presentation2">        
+            <img src="images/angkor.jpg" alt="photo temple">
+            <p>Le complexe de temples d’Angkor est l’une des plus grandes structures religieuses du monde.                    
+                Datant de l’âge d’or de la civilisation Khmer, environ entre 800 et 1 300, Angkor a été construit à l’origine comme un temple Hindouiste, puis a été progressivement transformé en temple Bouddhiste.
+                La jungle environnante donne l’impression d’être dans un monde perdu et mystérieux. Certains temples, comme Ta Prohm et Preah Khan, sont entourés de racines, de lianes et d’arbres géants.
+                Le site est souvent appelé à tort Angor Wat. En réalité ce mot désigne uniquement le plus grand temple du complexe monumental.
+                En choisissant bien le moment de votre visite, vous pourrez éviter la foule, trouver des coins cachés et vous imprégner de l’atmosphère unique qui règne à Angkor.</p>
+        </div>
 
-                            Les historiens peuvent seulement émettre des suppositions quant à l’utilisation initiale du site. La plupart s’accordent sur le fait qu’il a sans doute été construit par l’empereur inca Pachacútec au 15e siècle et a peut-être servi de retraite hivernale pour échapper au froid de Cuzco. Son manque d’importance militaire explique probablement pourquoi il n’a pas été détruit par les conquistadors espagnols et est resté inconnu pendant des siècles. </p>
-                </div>
-    
-            </section>
+        <hr width="75%" color="grey"> 
 
-            <hr width="75%" color="grey"> 
+        <section class="voyage4">
 
+            <div class="chine">
+                <h2 id="muraille">La Grande Muraille - Chine</h2>
+                <img src="images/flagchine.jpeg" alt="drapeau chine" height="50px" width="80px">
+            </div>
 
-        <section class="voyage3">
+            <div class="presentation">
 
-                <div class="chili">
+                <img src="images/muraille-chine.jpg" alt="muraille">
 
-                     <h2 id="paque">L'île de Pâques - Chili </h2>
-                     <img src="images/flagchili.jpeg" alt="drapeau chili" height="50px">
-                    </div>
-                
-                </div>
-
-                <div class="presentation">
-    
-                <img src="images/ile-de-paques.jpg" alt="photo ile paque">
-                    
-                
-                        <p>
-
-                            Isolée au milieu de l’océan Pacifique, l’île de Pâques est l’un des lieux les plus reculés du monde. Le vol pour s’y rendre depuis Santiago du Chili dure plus de cinq heures.
-                            
-                            Rapa Nui, comme l’appelle ses habitants, a été rendue célèbre par le mystère qui entoure ses 1 000 statues de pierre géantes, les Moai, qui mesurent jusqu’à 21 mètres de haut. Les archéologues du monde entier ont afflué sur l’île depuis 1940 pour tenter de résoudre ce mystère, mais certaines pièces du puzzle restent encore inconnues aujourd’hui.
-                            
-                            Beaucoup de voyageurs sont attirés par le mystère des Moai, mais se rendent rapidement compte que l’île de Pâques a bien plus à offrir que son histoire. Le mélange unique des cultures polynésienne et chilienne et l’isolation de l’île en ont fait un endroit unique au monde.
-                            </p>
-                </div>
-    
-            </section>
-
-            <hr width="75%" color="grey"> 
-
-
-            <section class="voyage4">
-
-                    <div class="cambodge">
-
-                        <h2 id="angkor">Les temples d'Angkor - Cambodge</h2>
-                        <img src="images/flagcambodge.jpeg" alt="drapeau cambodge" height="50px">
-                    
-                    </div>
-    
-                    <div class="presentation2">
+                <p>Mur défensif au nord de la Chine de 20000 km de long, de sept mètres de haut en moyenne,
+                construit entre le 3e et le 17e siècle. Il traverse des paysages extrêmement variés, des montagnes verdoyantes
+                autour de Beijing, des corridors de désert au passage de Jiayu… La partie la plus touristique du mur reçoit 
+                jusqu’à 70000 visiteurs par jour en haute saison. En vrai, les astronautes ne la voient pas à l’oeil nu depuis
+                le hublot de leur station spatiale. C’est un mythe, si si ! Le mur n’est pas parfaitement continu non plus, mais formé de plusieurs sections.</p>
+            </div>
+        </section>
         
-                    <img src="images/angkor.jpg" alt="photo temple">
-                        
-                    
-                            <p>
-
-                                    Le complexe de temples d’Angkor est l’une des plus grandes structures religieuses du monde.
-                                    
-                                    Datant de l’âge d’or de la civilisation Khmer, environ entre 800 et 1 300, Angkor a été construit à l’origine comme un temple Hindouiste, puis a été progressivement transformé en temple Bouddhiste.
-                                    
-                                    La jungle environnante donne l’impression d’être dans un monde perdu et mystérieux. Certains temples, comme Ta Prohm et Preah Khan, sont entourés de racines, de lianes et d’arbres géants.
-                                    
-                                    Le site est souvent appelé à tort Angor Wat. En réalité ce mot désigne uniquement le plus grand temple du complexe monumental.
-                                    
-                                    En choisissant bien le moment de votre visite, vous pourrez éviter la foule, trouver des coins cachés et vous imprégner de l’atmosphère unique qui règne à Angkor.
-                                    
-    
-                                
-                                </p>
-                    </div>
+        <footer>
+            <a href="./FAQ.html" title="">FAQ</a>
+            <a href="./nous_contacter.html" title="">Nous contacter</a>
+        </footer>
         
-                </section>
 
-                <hr width="75%" color="grey"> 
+        <script src = "script.js"></script>
 
-
-                <section class="voyage4">
-
-                    <div class="chine">
-
-                        <h2 id="muraille">La Grande Muraille - Chine</h2>
-                        <img src="images/flagchine.jpeg" alt="drapeau chine" height="50px" width="80px">
-                    
-                    </div>
-
-                    <div class="presentation">
-
-                        <img src="images/muraille-chine.jpg" alt="muraille">
-
-                        <p>Mur défensif au nord de la Chine de 20000 km de long, de sept mètres de haut en moyenne,
-                             construit entre le 3e et le 17e siècle. Il traverse des paysages extrêmement variés, des montagnes verdoyantes
-                              autour de Beijing, des corridors de désert au passage de Jiayu… La partie la plus touristique du mur reçoit 
-                              jusqu’à 70000 visiteurs par jour en haute saison. En vrai, les astronautes ne la voient pas à l’oeil nu depuis
-                               le hublot de leur station spatiale. C’est un mythe, si si ! Le mur n’est pas parfaitement continu non plus, mais formé de plusieurs sections.</p>
-                    </div>
-                </section>
-
-            
-
-               
-
-
-        
     </body>
 </html>
